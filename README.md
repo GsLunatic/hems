@@ -23,7 +23,7 @@ Home Assistant 加载项，用于逆变器、蓄电池和大功率家用设备�
 
 ## 安装
 
-1. 下载发布页中的 `home_energy_manager_HAOS_v*.zip`。
+1. 下载发布页中的 `home_energy_manager.zip`。
 2. 解压后，将里面的 `home_energy_manager` 文件夹放入 Home Assistant 的本地加载项目录。文件夹内必须直接包含 `config.yaml`、`Dockerfile`、Python 文件和 `web` 文件夹。
 3. 在 **设置 → 加载项 → 加载项商店** 刷新本地加载项，安装“家用能源管理系统”。
 4. 在加载项配置中设置至少 8 位的 `web_password`。
