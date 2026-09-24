@@ -1,0 +1,9 @@
+__pycache__
+**/__pycache__
+*.pyc
+.git
+tests
+manager.json
+runtime.json
+options.json
+*.env

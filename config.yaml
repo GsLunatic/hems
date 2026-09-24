@@ -1,0 +1,27 @@
+name: 家用能源管理系统
+version: "0.5.13"
+slug: home_energy_manager
+description: 双功率分级减载、受控设备恢复与配置备份
+arch:
+  - amd64
+  - aarch64
+init: false
+startup: application
+boot: auto
+ports:
+  1569/tcp: 1569
+ports_description:
+  1569/tcp: 家用能源管理系统 Web 配置端口
+webui: "http://[HOST]:[PORT:1569]"
+ingress: true
+ingress_port: 1569
+panel_icon: mdi:solar-power
+panel_title: 家用能源管理系统
+homeassistant_api: true
+options:
+  web_password: ""
+schema:
+  web_password: password
+
+
+
